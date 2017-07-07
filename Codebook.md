@@ -19,7 +19,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws  
 [www.smartlab.ws](www.smartlab.ws)  
 
-#Dataset description
+# Dataset description
 __Disclaimer: the dataset description draws heavily from the original dataset description (features.txt and README.txt), see the link above.__
 
 The dataset contains measurements taken from 30 subjects performing 6 different activities (walking, walking upstairs, walking downstairs, sitting, standing, laying).
