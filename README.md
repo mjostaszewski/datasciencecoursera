@@ -1,6 +1,6 @@
-#Scripts for tyding the "Human Activity Recognition Using Smartphones Data Set"
+# Scripts for tyding the "Human Activity Recognition Using Smartphones Data Set"
 
-##data\_load.R
+## data\_load.R
 
 This script loads either "train" or "test" dataset from the "Human Activity Recognition Using Smartphones Data Set" (source dataset).
 It creates a list with the subject id (subject\_\*.txt), measurements (X\_\*.txt) and activity codes (y\_\*.txt) from either "UCI HAR Dataset/train" or "UCI HAR Dataset/test". Measurements are already parsed via the read.fwf function into numerical values.  
@@ -10,7 +10,7 @@ The function in the script will create cache of loaded files in Rdata directory 
 
 Finally, the script will download and unpack the "UCI HAR Dataset" in the current directory, if this directory does not exist.
 
-##run\_analyze.R
+## run\_analyze.R
 
 This is the script to be executed in order to tidy up the source dataset.  
 This script uses the loaded datasets to consolidate them and merge them into a single dataset.  
